@@ -131,3 +131,5 @@ hl(0, "@punctuation.delimiter", { fg = p.muted })
 hl(0, "@punctuation.bracket", { fg = p.muted })
 hl(0, "@tag", { fg = p.cyanBright })
 hl(0, "@tag.attribute", { fg = p.amber })
+
+require("ghost.highlights").setup(p)
